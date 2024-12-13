@@ -1,0 +1,10 @@
+{
+	"optOut": false,
+	"lastUpdateCheck": 1732019173266,
+	"update": {
+		"latest": "4.8.9",
+		"current": "4.7.6",
+		"type": "minor",
+		"name": "@maizzle/framework"
+	}
+}
