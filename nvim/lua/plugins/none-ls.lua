@@ -1,0 +1,22 @@
+return {
+  -- "nvimtools/none-ls.nvim",
+  -- dependencies = {
+  --   "nvimtools/none-ls-extras.nvim",
+  -- },
+  -- config = function()
+  --   local null_ls = require("null-ls")
+  --   local conform = require("conform")
+  --   null_ls.setup({
+  --     sources = {
+  --       null_ls.builtins.formatting.stylua,
+  --       null_ls.builtins.completion.spell,
+  --       require("none-ls.diagnostics.eslint"), -- requires none-ls-extras.nvim
+  --     },
+  --   })
+  --   conform.setup({
+  --     formatters_by_ft = {
+  --       javascript = { "prettierd", "prettier", stop_after_first = true },
+  --     },
+  --   })
+  -- end,
+}
