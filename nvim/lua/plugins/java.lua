@@ -23,6 +23,11 @@ return {
                     {
                       name = "JavaSE-21",
                       path = "/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home",
+                      default = false,
+                    },
+                    {
+                      name = "JavaSE-18",
+                      path = "/Library/Java/JavaVirtualMachines/jdk-18.0.2.1.jdk/Contents/Home",
                       default = true,
                     },
                   },
@@ -33,9 +38,7 @@ return {
         },
         setup = {
           jdtls = function()
-            require("java").setup({
-              -- your nvim-java configuration goes here
-            })
+            require("java").setup({})
           end,
         },
       },

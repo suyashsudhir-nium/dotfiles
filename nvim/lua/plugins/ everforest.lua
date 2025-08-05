@@ -11,7 +11,7 @@ return {
       background = "hard",
       ---How much of the background should be transparent. 2 will have more UI
       ---components be transparent (e.g. status line background)
-      transparent_background_level = 2,
+      transparent_background_level = 1,
       ---Whether italics should be used for keywords and more.
       italics = false,
       ---Disable italic fonts for comments. Comments are in italics by default, set
@@ -38,7 +38,7 @@ return {
       diagnostic_virtual_text = "coloured",
       ---Some plugins support highlighting error/warning/info/hint lines, but this
       ---feature is disabled by default in this colour scheme.
-      diagnostic_line_highlight = false,
+      diagnostic_line_highlight = true,
       ---By default, this color scheme won't colour the foreground of |spell|, instead
       ---colored under curls will be used. If you also want to colour the foreground,
       ---set this option to `true`.

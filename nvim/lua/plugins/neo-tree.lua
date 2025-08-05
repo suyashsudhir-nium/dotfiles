@@ -13,7 +13,7 @@ return {
           "thumbs.db",
         },
         never_show = {
-          ".git",
+          -- ".git",
           "node_modules",
           ".vscode",
           ".DS_Store",
